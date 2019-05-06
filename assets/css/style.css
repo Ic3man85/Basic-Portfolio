@@ -1,41 +1,4 @@
 body{
 
-    background-image: url(../images/round.png);
-    color: #777777;
-
-}
-
-h1{
-    background: #4aaaa5;
-    font-family: 'Georgia', 'Times New Roman', 'Times New Roman', Times, serif;
-    display: inline-block;
-}
-
-h2{
     
-    color: #4aaaa5;
-    font-family: 'Georgia', 'Times New Roman', Times, serif;
-
-}
-
-header{
-    
-    width: 960px;
-    background: #ffffff;
-    border-color: black;
-    border-width: 2px;
-    
-}
-
-#navbar{
-
-    float: right;
-    color: #777777;
-}
-
-#main{
-
-    width: 960px;
-
-
 }
