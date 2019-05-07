@@ -17,13 +17,9 @@ body{
 .page-content{
 
     min-height: 100%;
+
     margin-bottom: -30px;
-}
-
-.page-content::after{
-    content:"";
-    display: block;
-
+    
 }
 
 nav{
@@ -88,10 +84,7 @@ h2{
     background: #ffffff;
     border: 1px solid #dddddd;
     margin: 0 auto;
-    margin-top: 30px;
-    
-    
-    
+    margin-top: 30px;    
 }
 
 #image{
@@ -110,14 +103,20 @@ p{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-footer, .page-content::after{
-    height: 30px;
-    
+.page-content::after{
+    content:"";
+    display: block;
 }
+.footer, .push, .page-content::after{
 
-footer{ 
-
-    background: #666666;
+    height: 30px;
+}
+    
+footer{
+    
+    background: #666666;    
     border-top: 8px solid #4aaaa5;
 }
+
+
 
