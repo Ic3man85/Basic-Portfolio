@@ -38,28 +38,24 @@ h1{
 }
 
 nav ul{
-
-   
+    
     list-style: none;
     padding-top: 30px;
     margin: 0;
-    
 }
 
+
 nav li{
-    
     display: inline-block;
     margin-left: 20px;
     
 }
 
 nav a{
-
+    
     color: #777777;
     text-decoration: none;
-      
 }
-
 h2{
 
     color: #4aaaa5;
@@ -71,7 +67,7 @@ h2{
 }
 
 .main{
-
+    
     width: 960px;
     background: #ffffff;
     border: 1px solid #dddddd;
@@ -111,8 +107,7 @@ footer{
 
 .port-content{
 
-    margin: 20px;
-
+    float: left;
 }
 
 
