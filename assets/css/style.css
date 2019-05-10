@@ -2,12 +2,14 @@
 body{
     min-height: 100%;
 }*/
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     background-image: url(../images/round.png);
     
 }
-
 .container{
     position: relative;
     width: 960px;
@@ -131,19 +133,43 @@ button{
     
 }
 
-.port-content{
-    
-    margin-left: 5px;
-    padding: 10px;
+.content{
+    position: absolute;
+    width: 960px;
+    margin-left: 10px;
+    padding: 5px;
 
 }
-.img1{
+.port-content1{
+    width: 25%;
     position: relative;
-    
+    margin-left: 5px;
+    padding-bottom: 15px;
+    float: left;
+    clear: left;
+
+} 
+
+.port-content2{
+    width: 75%;
+
+}
+
+
+
+
+
+/*.img1{
+    position: relative;
+    margin-left: 10px;
+    padding: 10px;
+    float: left;
 } 
 .img2{
-    left: 60px;
-
+    position: relative;
+    float: center;
+    margin-left: 10px;
+    padding: 10px;
     
 }
 .img3{
