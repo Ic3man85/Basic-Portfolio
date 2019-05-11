@@ -5,14 +5,19 @@ body{
 *{
     box-sizing: border-box;
 }
+html{
+    height: 100%;
+    margin: 0;
+}
 body{
+    height: 100%;
     margin: 0;
     background-image: url(../images/round.png);
     
 }
+
 .container{
     position: relative;
-    width: 960px;
     margin: 0 auto;
     
     
@@ -21,13 +26,13 @@ body{
 nav{
     position: relative;
     float: right;
+    margin-right: 195px;
+    
 }
 
 header{
-    
     background: #ffffff;
     border: 1px solid #cccccc;
-    
 }
 
 
@@ -37,8 +42,9 @@ h1{
     padding: 20px;
     display: inline-block;
     background: #4aaaa5;
-    margin-top: 0;
+    margin-top: 10px;
     margin-bottom: 0;
+    margin-left: 195px;
 }
 
 .list{
@@ -80,7 +86,8 @@ h2{
     background: #ffffff;
     border: 1px solid #dddddd;
     margin: 0 auto;
-    margin-top: 30px;    
+    margin-top: 30px;
+      
 }
 
 #image{
@@ -92,6 +99,7 @@ h2{
 }
 
 p{
+    width: 960px;
     padding: 20px;
     line-height: 30px;
     float: inline;
@@ -104,6 +112,7 @@ h4{
 }
     
 footer{
+    width: 100%;
     background: #666666;    
     border-top: 8px solid #4aaaa5;
     
@@ -134,7 +143,8 @@ button{
 }
 
 .content{
-    position: absolute;
+    overflow: hidden;
+    margin: 0 auto;
     width: 960px;
     margin-left: 10px;
     padding: 5px;
@@ -146,45 +156,21 @@ button{
     margin-left: 5px;
     padding-bottom: 15px;
     float: left;
-    clear: left;
-
 } 
 
 .port-content2{
+    position: relative;
     width: 75%;
-
-}
-
-
-
-
-
-/*.img1{
-    position: relative;
-    margin-left: 10px;
-    padding: 10px;
-    float: left;
-} 
-.img2{
-    position: relative;
-    float: center;
-    margin-left: 10px;
-    padding: 10px;
     
 }
-.img3{
-    position: relative;
-    
-} 
- 
-
-
-/*.port-content-3{
-    
+.content::after{
+    content: "";
+    height: 0;
+    clear: both;
 }
-/*img{
-    margin: 10px;
-}
+
+    
+
 
 
 
