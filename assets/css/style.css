@@ -89,15 +89,15 @@ h2 {
 
 .main {
     width: 960px;
-    background: #ffffff;
+    background: whitesmoke;
     border: 1px solid #dddddd;
     margin: 0 auto;
     margin-top: 30px;
 }
 
 #image {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     padding: 20px;
     float: left;
 }
@@ -145,7 +145,7 @@ button {
 .main-1 {
     height: 700px;
     width: 960px;
-    background: #ffffff;
+    background: whitesmoke;
     border: 1px solid #dddddd;
     margin: 0 auto;
     margin-top: 30px;
