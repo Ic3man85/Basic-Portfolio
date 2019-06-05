@@ -40,13 +40,13 @@ nav {
 }
 
 header {
-    background: #ffffff;
+    background: whitesmoke;
     border: 1px solid #cccccc;
 }
 
 h1 {
     text-align: center;
-    color: #ffffff;
+    color: white;
     padding: 20px;
     display: inline-block;
     background: #4aaaa5;
